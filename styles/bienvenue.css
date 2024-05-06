@@ -1,0 +1,43 @@
+#bienvenueCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.bienvenue {
+  display: flex;
+  align-items: center;
+  font-family: "Comic Neue";
+  font-size: 1.5rem;
+  padding-right: 4rem;
+}
+
+#B {
+  color: #e5ef6e;
+}
+#I {
+  color: #f2f4f8;
+}
+#E {
+  color: #f0c298;
+}
+#N {
+  color: #3cf87c;
+}
+#V {
+  color: #e8a8ff;
+}
+#E {
+  color: #afc8f8;
+}
+#N {
+  color: #fdd400;
+}
+#U {
+  color: #f413dd;
+}
+#E {
+  color: #cdef00;
+}
+#point {
+  color: #00e0ef;
+}

@@ -1,0 +1,30 @@
+body {
+  height: calc(100vh - 120px);
+  background-color: #0d1c40;
+  background-size: contain;
+  
+}
+
+#logo {
+  height: 18rem;
+  width: 20rem;
+}
+
+#logoCenter {
+  background-image: url("../assets/logo.png");
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+/* .mousemove{
+  height: 25px;
+  width: 25px;
+  border: 40px solid rgb(201, 9, 208);
+  position: absolute;
+   transform: translate(-50%, -50%); /*pour que la souris et le curseur soit bien au centre */
+  /* border-radius: 50px; */
+/* border-image: url(../assets/souris.png); */
+ /* }; */ 

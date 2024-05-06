@@ -1,0 +1,68 @@
+#choixActivite {
+  color: #abc6f6;
+  display: flex;
+  justify-content: center;
+  font-family: "Bona Nova", serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.icon {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  padding-top: 3rem;
+  
+}
+
+#icon_devoirs {
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+}
+
+#icon_lecture {
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+}
+
+#icon_jeux {
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+}
+
+#icon_youtube {
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+}
+
+#icon_cinema {
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+}
+
+#sablierCenter {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#icon_sablier {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+#textIcons{
+  display: flex;
+  justify-content: space-between;
+  color:#FEB601 ;
+  padding-bottom: 3rem;
+  padding-right: 1.5rem;
+  padding-left: 3.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+}

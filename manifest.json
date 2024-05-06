@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Kids Digital",
+  "description": "Extension pour sécuriser les enfants face à Internet.",
+  "version": "1.0",
+  "permissions": ["tabs", "activeTab"],
+  "action": {
+    "default_icon": "assets/logo.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "assets/logo.png"
+  }
+}
