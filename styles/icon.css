@@ -3,14 +3,13 @@
   display: flex;
   justify-content: center;
   font-family: "Bona Nova", serif;
-  font-weight: bold;
+  font-weight: lighter;
   font-size: 1.5rem;
 }
 
 .icon {
   display: flex;
   justify-content: flex-start;
-  align-content: center;
   padding-top: 3rem;
   padding-right: 5rem;
   
@@ -31,6 +30,7 @@
 #icon_jeux {
   width: 5rem;
   height: 5rem;
+  padding-right: 1rem;
   cursor: pointer;
 }
 
@@ -44,6 +44,7 @@
   width: 5rem;
   height: 5rem;
   cursor: pointer;
+  padding-left: 1.5rem;
 }
 
 #sablierCenter {
@@ -52,18 +53,25 @@
 }
 
 #icon_sablier {
-  width: 1.5rem;
-  height: 1.5rem;
-  padding-bottom: 1.5rem;
+  width: 2rem;
+  height: 2rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
 }
 
-#textIcons{
+#textIcons {
   display: flex;
   justify-content: space-between;
-  color:#FEB601 ;
+  align-items: center;
+  color: #feb601;
   padding-bottom: 3rem;
   padding-right: 5.5rem;
   padding-left: 3.5rem;
   font-weight: 500;
   font-size: 1rem;
+}
+
+#film{
+padding-left: 2rem;
+padding-right: 4rem;
 }

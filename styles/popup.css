@@ -13,7 +13,7 @@ body {
 #logoCenter {
   background-image: url("../assets/logo.png");
   width: 100%;
-  background-size: cover;
+  background-size: cover; 
   display: flex;
   justify-content: center;
 }

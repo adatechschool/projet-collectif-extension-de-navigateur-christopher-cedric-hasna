@@ -33,7 +33,15 @@
 // setInterval(alerter, 2000);
 
 setTimeout(() => {
-  alert("Le temps passe vite! Il ne te reste que 5 minutes!");
-}, 2000);
+  alert("Attention ton temps est limité à 1h soit 60 minutes!");
+}, 30000);
 
 // (3600*1000)-(300*1000)
+
+setTimeout(()=>{
+alert("Ton temps d'écran est presque fini, il ne te reste que 2 minutes !!")
+}, 3480000);
+
+
+
+
