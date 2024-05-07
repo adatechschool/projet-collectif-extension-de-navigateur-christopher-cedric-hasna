@@ -12,6 +12,7 @@
   justify-content: flex-start;
   align-content: center;
   padding-top: 3rem;
+  padding-right: 5rem;
   
 }
 
@@ -61,7 +62,7 @@
   justify-content: space-between;
   color:#FEB601 ;
   padding-bottom: 3rem;
-  padding-right: 1.5rem;
+  padding-right: 5.5rem;
   padding-left: 3.5rem;
   font-weight: 500;
   font-size: 1rem;
