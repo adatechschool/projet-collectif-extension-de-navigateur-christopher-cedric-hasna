@@ -21,6 +21,15 @@ h1 {
   color: #0D1C40;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  color: #7f7ca9;
+
+}
+
 
  /* .mousemove{
   height: 25px;

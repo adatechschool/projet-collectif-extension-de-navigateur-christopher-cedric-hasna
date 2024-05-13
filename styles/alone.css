@@ -52,7 +52,12 @@ font-weight: lighter;
 }
 
 .buttonRetour{
- background-color: #7F7CA9;
+ background-color: #7f7ca9;
  color: #F1F3F5;
  margin-bottom: 1rem;
+ border: 1px solid #F1F3F5;
+ width: 70px;
+ height: 25px;
+ display: flexbox;
+ justify-content: center;
 }
