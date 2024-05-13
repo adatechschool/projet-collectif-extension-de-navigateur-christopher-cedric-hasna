@@ -1,39 +1,58 @@
-#logoAlone {
+.iconAlone {
   display: flex;
-  align-items: flex-start;
-  height: 1.5rem;
-  width: 1.5rem;
+  align-content: center;
+  width: 8rem;
+  height: 8rem;
+  padding-bottom: 3rem;
 }
 
-#iconAlone {
-  width: 5rem;
-  height: 5rem;
+.buttonCenter{
   display: flex;
-  align-items: center;
+align-content: center;
+padding-right: 4rem;
 }
 
-#buttonRetour {
-  display: flex;
-  align-items: flex-start;
-
-  background-color: #feb601;
-  color: #0d1c40;
-  font-family: "Comic Neue";
-  font-weight: bold;
-  size: 6rem;
-  border-radius: 5rem;
-  margin-bottom: 1rem;
+#styleButtonBlue{
+color:#04ADD6;
+background-color:#0D1C40D6;
+font-family: "Arial";
+font-size: 1rem;
+font-weight: lighter;
 }
-#p {
-  color: #feb601;
-  font-family: "Comic Neue";
-  font-weight: normal;
+#styleButtonYellow{
+color: #edb036;
+background-color:#0D1C40D6;
+font-family: "Arial";
+font-size: 1rem;
+font-weight: lighter;
+}
+
+#styleButtonRose{
+  color: #ec4096;
+  background-color:#0D1C40D6;
+  font-family: "Arial";
   font-size: 1rem;
-  display: flex;
-  justify-content:center;
+  font-weight: lighter;
 }
 
-#kiddle {
-  height: 3rem;
-  width: 3rem;
+#styleButtonGreen{
+  color: #0CCD88;
+  background-color:#0D1C40D6;
+  font-family: "Arial";
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+#styleButtonPurple{
+  color: #AAA6DC;
+  background-color:#0D1C40D6;
+  font-family: "Arial";
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+.buttonRetour{
+ background-color: #7F7CA9;
+ color: #F1F3F5;
+ margin-bottom: 1rem;
 }

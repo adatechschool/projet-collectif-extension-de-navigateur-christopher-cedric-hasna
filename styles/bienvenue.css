@@ -1,43 +1,42 @@
 #bienvenueCenter {
   display: flex;
-  justify-content: center;
 }
 
 .bienvenue {
   display: flex;
   align-items: center;
-  font-family: "Comic Neue";
-  font-size: 1.5rem;
-  padding-right: 4rem;
+  font-family: "Arial";
+  font-weight: lighter;
+  font-size: 1.7rem;
 }
 
 #B {
-  color: #e5ef6e;
+  color:#04ADD6;
 }
 #I {
-  color: #f2f4f8;
+  color: #FDB219;
 }
 #E {
-  color: #f0c298;
+  color: #E70D7B;
 }
 #N {
-  color: #3cf87c;
+  color: #0CCD88;
 }
 #V {
-  color: #e8a8ff;
+  color: #7F7CA9;
 }
 #E {
-  color: #afc8f8;
+  color: #F1F3F5;
 }
 #N {
-  color: #fdd400;
+  color: #04ADD6;
 }
 #U {
-  color: #f413dd;
+  color: #E70D7B;
 }
 #E {
-  color: #cdef00;
+  color: #0CCD88;
 }
 #point {
-  color: #00e0ef;
+  color: #E5E9F2;
 }

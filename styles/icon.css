@@ -1,18 +1,38 @@
 #choixActivite {
-  color: #abc6f6;
+  color: #AAA6DC;
   display: flex;
   justify-content: center;
-  font-family: "Bona Nova", serif;
-  font-weight: lighter;
+  font-family: "Arial";
+  font-weight:lighter;
   font-size: 1.5rem;
 }
 
 .icon {
   display: flex;
-  justify-content: flex-start;
-  padding-top: 3rem;
+  flex-direction: row;
+  padding-top: 2rem; 
+  padding-right: 4.5rem;
+}
+
+
+.textIcons {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-family: "Arial";
+  color: #AAA6DC;
+  font-weight:lighter;
+  font-size: 1rem;
   padding-right: 5rem;
-  
+  /* color: #b5c9eb; */
+}
+
+#textDevoirs{
+padding-left: 3.2rem;
+}
+
+#textFilms{
+padding-right: 1rem;
 }
 
 #icon_devoirs {
@@ -30,7 +50,6 @@
 #icon_jeux {
   width: 5rem;
   height: 5rem;
-  padding-right: 1rem;
   cursor: pointer;
 }
 
@@ -44,34 +63,31 @@
   width: 5rem;
   height: 5rem;
   cursor: pointer;
-  padding-left: 1.5rem;
+  padding-left: 1rem;
 }
+
+/* #film{
+  padding-left: 2rem;
+  padding-right: 4rem;
+} */
+  
 
 #sablierCenter {
   display: flex;
   justify-content: flex-end;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  padding-right: 0.5rem;
 }
 
-#icon_sablier {
+#icon_horloge {
   width: 2rem;
   height: 2rem;
-  padding-bottom: 1rem;
-  padding-right: 1rem;
+  
 }
 
-#textIcons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: #feb601;
-  padding-bottom: 3rem;
-  padding-right: 5.5rem;
-  padding-left: 3.5rem;
-  font-weight: 500;
-  font-size: 1rem;
-}
 
-#film{
-padding-left: 2rem;
-padding-right: 4rem;
-}
+
+
+
+

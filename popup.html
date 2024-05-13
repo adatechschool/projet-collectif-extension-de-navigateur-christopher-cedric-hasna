@@ -3,60 +3,20 @@
         <link rel="stylesheet" href="../styles/bienvenue.css" />
         <link rel="stylesheet" href="../styles/icon.css" />
         <link rel="stylesheet" href="../styles/iconAlone.css" />
-
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Comic+Neue:wght@700&display=swap"/>
-
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"/>
+        <link rel="stylesheet" href="./styles/decompte.css">
 
         <title>Popup</title>
       
 <!--------------------------------HEADER------------------>
-<header id="logoCenter">
+<center><header id="logoCenter">
   <img id="logo" src="../assets/logo.png" alt="logo kids" />
 </header>
+</center>
 
 <!------------------------------------ BODY --------------->
 <body>
-  <h1 id="bienvenueCenter">
-    <ul class="Bienvenue">
-      <ul id="B">
-        B
-      </ul>
-      <ul id="I">
-        I
-      </ul>
-      <ul id="E">
-        E
-      </ul>
-      <ul id="N">
-        N
-      </ul>
-      <ul id="V">
-        V
-      </ul>
-      <ul id="E">
-        E
-      </ul>
-      <ul id="N">
-        N
-      </ul>
-      <ul id="U">
-        U
-      </ul>
-      <ul id="E">
-        E
-      </ul>
-      <ul id="point">
-        !
-      </ul>
-    </ul>
-  </h1>
-<body>
-<h1 id="bienvenueCenter">
+  
+<center><h1 id="bienvenueCenter">
   <ul class="Bienvenue">
     <ul id="B">
       B
@@ -90,11 +50,13 @@
     </ul>
   </ul>
 </h1>
+</center>
 
   <h2 id="choixActivite">Que veux tu faire aujourd'hui ?</h2>
 
-<ul class="icon">
-  <ul>
+<center><ul class="icon">
+
+  <ul >
     <a href="../html/devoirs.html">
       <img id="icon_devoirs" src="../assets/devoirs.png" alt="icon devoirs" />
     </a>
@@ -103,7 +65,6 @@
   <ul>
     <a href="../html/lecture.html">
       <img id="icon_lecture" src="../assets/lecture.png" alt="icon lecture" />
-    </a>
   </ul>
 
   <ul>
@@ -124,39 +85,34 @@
     </a>
   </ul>
 </ul>
+</center>
 
-  <ul id="textIcons">
-    <ul>
-      Devoirs
-    </ul>
-    <ul>
-      Lire
-    </ul>
-    <ul>
-      Jouer
-    </ul>
-    <ul>
-      Regarder
-    </ul>
-    <ul id="films">
-      Films
-    </ul>
-  </ul>
-
+<center><ul class="textIcons " >
+<ul id="textDevoirs">Devoirs</ul>
+<ul>Lecture</ul>
+<ul>Jouer</ul>
+<ul>Regarder</ul>
+<ul id="textFilms">Films</ul>
+</ul>
+</center>
   
 
 
 <section id="sablierCenter">
+  <a href="./html/decompte.html"> 
   <img
-    id="icon_sablier"
-    src="../assets/sablier.png"
+    id="icon_horloge"
+    src="../assets/horloge.png"
     alt="icon d'un sablier pour symboliser le temps limité sur l'écran"
   />
+</a>
 </section>
 
-<div class="mousemove"></div>
+
+<!-- <div class="mousemove"></div>  -->
 
 <script src="../popup.js"></script>
+<script src="./decompte.js"></script>
 </body>
 <!---------------------------------------- FIN BODY----------------------->
 </html>

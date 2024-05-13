@@ -1,8 +1,7 @@
 body {
   height: calc(100vh - 120px);
-  background-color: #0d1c40;
-  background-size: contain;
-  
+  background-color: #121A2F;
+  background-size: contain; 
 }
 
 #logo {
@@ -17,47 +16,20 @@ body {
   display: flex;
   justify-content: center;
 }
+
 h1 {
   color: #0D1C40;
 }
 
-.button {
-  display: flex;
-  justify-content: center;
-  padding: 05px 10px;
-  text-align: center;
-  text-decoration: none;
-  background-color: #dc380a; /* Couleur de fond du bouton, vous pouvez la changer */
-  color: white; /* Couleur du texte du bouton */
-  border-radius: 15px; /* Ajoute des coins arrondis au bouton */
-  border: none;
-  cursor: pointer;
-  font-size: 05px;
-}
 
-nav {
-  height: 50px;
-  display: flex;
-  margin-bottom: 10px;
-  align-content: center;
-  justify-content: space-between;
-  padding-block: center;
-}
-
-nav ul {
-  padding: 3;
-  list-style-type: none;
-  flex: 2;
-  display: flex;
-  align-content: center;
-}
-
- .mousemove{
+ /* .mousemove{
   height: 25px;
   width: 25px;
   border: 40px solid rgb(201, 9, 208);
   position: absolute;
-  transform: translate(-50%, -50%); /*pour que la souris et le curseur soit bien au centre */
-  border-radius: 50px; 
+  /* transform: translate(-50%, -50%); pour que la souris et le curseur soit bien au centre */
+  /* border-radius: 50px; 
   border-image: url(../assets/souris.png); 
-  };  
+  };   */ 
+
+  
